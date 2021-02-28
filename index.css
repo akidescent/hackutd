@@ -123,11 +123,15 @@ It is positioned relative until a given offset position is met in the viewport -
   visibility: hidden;
 }
 #quiz{
-  margin-left: 10px;
+  margin-left: 15px;
 
   padding: 10px 20px 10px 20px;
   width: 800px;
   border-radius: 20px;
   background: lightblue;
   float: left;
+}
+
+.list{
+  margin-left:15px;
 }
