@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+.quiz{
+font-size: 40px;
+
+}
+
 /* Header/logo Title */
 .header {
   padding: 80px;
@@ -111,4 +116,8 @@ body {
     float: none;
     width: 100%;
   }
+}
+
+#after_submit{
+  visibility: hidden;
 }
