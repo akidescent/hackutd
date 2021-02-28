@@ -13,70 +13,73 @@ body {
 }
 </style>
 </head>
-<body>
-  <div class="header">
-    <h1>Sustainability Quiz: How sustainable are you?</h1>
-    <p>UTD Student edition</p>
+
+  <body>
+
+    <div class="header">
+      <h1>Sustainability Quiz: How sustainable are you?</h1>
+      <p>UTD Student edition</p>
+    </div>
+    <div class="navbar">
+      <a href="index.html">Quiz</a>
+      <a href="resources.html">Resources</a>
+
+      <!--a href="#" class="right">Link</a>-->
+    </div>
+
+    <div class="row">
+    <div class="side">Take the Quiz to find out how much of a sustainable student you are by answering a few questions!</div>
+    <div class="main"><center><h1>Sustainability Quiz for Students </h1></center>
+
+    </div>
   </div>
-  <div class="navbar">
-    <a href="#">Quiz</a>
-    <a href="#">Resources</a>
-    <a href="#">Contact</a>
-    <!--a href="#" class="right">Link</a>-->
-  </div>
 
-  <div class="row">
-  <div class="side">Take the Quiz to find out how much of a sustainable student you are by answering a few questions!</div>
-  <div class="main">honk honk honk
+  <div class= "quiz"></div>
+  <form id = "quiz" name = "quiz">
 
-  </div>
-</div>
+    <p>What do you do with your school supplies at the end of the school year? </p>
+    <input type = "radio" id = "mc" name = "question1" value = "1A"> I save my school supplies for next year!<br>
+    <input type = "radio" id = "mc" name = "question1" value = "1B"> I burn my old books to celebrate the end of the year!<br>
+    <input type = "radio" id = "mc" name = "question1" value = "1C"> I recycle my notebooks and other papers! <br>
 
-<div class= "quiz">Sustainability Quiz for Students </div>
-<form id = "quiz" name = "quiz">
+    <p>Do you eat animal based products?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "2A">I’m vegetarian/vegan<br>
+    <input type = "radio" id = "mc" name = "question2" value = "2B">I eat both vegetables and animal based products<br>
+    <input type = "radio" id = "mc" name = "question2" value = "2C">I eat meat/eggs/dairy products often<br>
 
-  <p>What do you do with your school supplies at the end of the school year? </p>
-  <input type = "radio" id = "mc" name = "question1" value = "1A"> I save my school supplies for next year!<br>
-  <input type = "radio" id = "mc" name = "question1" value = "1B"> I burn my old books to celebrate the end of the year!<br>
-  <input type = "radio" id = "mc" name = "question1" value = "1C"> I recycle my notebooks and other papers! <br>
+    <p>How often do you purchase new technology</p>
+    <input type = "radio" id = "mc" name = "question3" value = "3A">I’m up to date on all the latest tech!<br>
+    <input type = "radio" id = "mc" name = "question3" value = "3B">I only buy new tech to replace broken tech<br>
+    <input type = "radio" id = "mc" name = "question3" value = "3C">I occasionally buy new gadgets and replace old stuff.<br>
 
-  <p>Do you eat animal based products?</p>
-  <input type = "radio" id = "mc" name = "question2" value = "2A">I’m vegetarian/vegan<br>
-  <input type = "radio" id = "mc" name = "question2" value = "2B">I eat both vegetables and animal based products<br>
-  <input type = "radio" id = "mc" name = "question2" value = "2C">I eat meat/eggs/dairy products often<br>
+    <p>How do you take notes in class?</p>
+    <input type = "radio" id = "mc" name = "question4" value = "4A">I write everything digitally on my phone/tablet<br>
+    <input type = "radio" id = "mc" name = "question4" value = "4B">I don’t take notes<br>
+    <input type = "radio" id = "mc" name = "question4" value = "4C">I take hand-written notes in my notebook or loose leaf paper<br>
 
-  <p>How often do you purchase new technology</p>
-  <input type = "radio" id = "mc" name = "question3" value = "3A">I’m up to date on all the latest tech!<br>
-  <input type = "radio" id = "mc" name = "question3" value = "3B">I only buy new tech to replace broken tech<br>
-  <input type = "radio" id = "mc" name = "question3" value = "3C">I occasionally buy new gadgets and replace old stuff.<br>
+    <br>
 
-  <p>How do you take notes in class?</p>
-  <input type = "radio" id = "mc" name = "question4" value = "4A">I write everything digitally on my phone/tablet<br>
-  <input type = "radio" id = "mc" name = "question4" value = "4B">I don’t take notes<br>
-  <input type = "radio" id = "mc" name = "question4" value = "4C">I take hand-written notes in my notebook or loose leaf paper<br>
 
+    <input id = "button" type = "button" value = "submit" onclick = "check();"><br>
   <br>
 
 
-  <input id = "button" type = "button" value = "submit" onclick = "check();"><br>
-<br>
+  </form>
 
-
-</form>
-
-<div id = "after_submit">
-  <p id = "message"></p>
-  <p id = "num_correct">  </p>
-</div>
+  <div id = "after_submit">
+    <p id = "message"></p>
+    <p id = "num_correct">  </p>
+  </div>
 
 
 
 
 
-<div class="footer">
-  <h2>Made for HackUTD 2021 <br></br>
-    wooosh</h2>
-</div>
+    <div class="footer">
+    <h2> Made for HackUTD 2021</h2>
+  </div>
+
+
 </body>
 
 </html>
